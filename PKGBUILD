@@ -18,8 +18,8 @@ license=("custom")
 options=('staticlibs' 'libtool' '!strip' '!upx')
 groups=('amdapp')
 makedepends=('perl' 'llvm'  'apache-ant' 'wget')
-_dirname='AMD-APP-SDKInstaller-v3.0.130.135-GA-linux'
-_scriptname='AMD-APP-SDK-v3.0.130.135-GA-linux'
+_dirname='AMD-APP-SDKInstaller-v3.0.130.136-GA-linux'
+_scriptname='AMD-APP-SDK-v3.0.130.136-GA-linux'
 
 #Architecture resolution
     if [ "$CARCH" = 'i686' ]; then
@@ -33,8 +33,8 @@ _scriptname='AMD-APP-SDK-v3.0.130.135-GA-linux'
 # 	     _tarbits=64
      fi
 
-[ "$CARCH" = 'i686' ] && _hash='8e1ad82b4cd2fcf58649daf4e43574d9d5c654cd2e07fcbb4bae7cc6d2f3daf6' \
-                        || _hash='27a6145a73910d2320fd017159cf72f16601c375c2b304644c31566f45cc26a6'
+[ "$CARCH" = 'i686' ] && _hash='181fb9815e735c90ca5713acc27a6f9ed7f85135d2f2a085bed7b4c7ed157b94' \
+                        || _hash='0aa436acd334b686820bd3caab9f09014608741b92e3996d3642d0b148ede0f7'
 
 #Sources
 source=(
@@ -46,7 +46,7 @@ source=(
 
 #sha256sums
 sha256sums=(
-'77cb18c5a588e02c73c2406e1057461b6c030b97534154aa3163cbfb9b7e97b7'
+'0b7465f250f667a240ea4a46ae07e9f193f7ede4975c611fd77b06cb98478169'
 'dffe3d16ae07fafe6571c37f97f73e694891a7ea7888fc7f0a5d0e42b997e50f'
 'c871a5044dd19e710b9ff058faa4e40f9b825b27d3928d535bc452116dba3b95')
 
