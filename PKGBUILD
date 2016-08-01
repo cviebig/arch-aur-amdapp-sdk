@@ -199,6 +199,8 @@ conflicts=('catalyst-utils')
   #Place libs
   install -m755 -d ${pkgdir}/${_ipath}/lib
   cp -r ${srcdir}/${_subdir}/lib/${_arch}/* ${pkgdir}/${_ipath}/lib
+  # Remove dangling symlink in v3.0.130.136-GA-linux
+  rm -f ${pkgdir}/${_ipath}/lib/libOpenCL.so
   chmod 755 ${pkgdir}/${_ipath}/lib/*
 
   #License
