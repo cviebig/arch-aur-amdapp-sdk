@@ -42,8 +42,8 @@ _scriptname='AMD-APP-SDK-v3.0.130.136-GA-linux'
 
 #Sources
 source=(
-# 	"http://developer.amd.com/wordpress/media/files/AMD-APP-SDK-linux-v2.9-1.599.381-GA-${_tarbits}.tar.bz2"
-	"http://developer.amd.com/wordpress/media/files/${_dirname}${_bits}.tar.bz2"
+# 	"https://archive.org/download/AMDAPPSDK/AMD-APP-SDKInstaller-v3.0.130.136-GA-linux64.tar.bz2"
+	"https://archive.org/download/AMDAPPSDK/${_dirname}${_bits}.tar.bz2"
 	'amd.icd'
 	'amd_i686.icd'
 	'amdapp-sdk.sh'
